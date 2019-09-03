@@ -5,9 +5,7 @@ def load_library(file)
   yaml_file = YAML.load_file(file)
   
   
-  i = 0 
-  
-  yaml_file.keys
+  yaml_file
 end
 
 def get_japanese_emoticon
