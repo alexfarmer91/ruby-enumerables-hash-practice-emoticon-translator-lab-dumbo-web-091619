@@ -5,10 +5,10 @@ def load_library(file)
   yaml_file = YAML.load_file(file)
   
   emoji_hash = {
-    :get_meaning => ,
-    
+    :get_meaning => yaml_file.keys,
+    :get_emoticon =>
   }
-  yaml_file
+  
 end
 
 def get_japanese_emoticon
