@@ -4,12 +4,7 @@ def load_library(file)
   require "yaml"
   yaml_file = YAML.load_file(file)
   
-  emoji_hash = {
-    :get_meaning => yaml_file.keys,
-    :get_emoticon =>
-  }
-  
-end
+emoji_hash
 
 def get_japanese_emoticon
   # code goes here
