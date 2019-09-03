@@ -12,7 +12,9 @@ def load_library(file)
   emoji_hash
 end
 
-def get_japanese_emoticon()
+def get_japanese_emoticon(file_path, emoji)
+  emoji_hash = load_library(file_path)
+  
   
 end
 
