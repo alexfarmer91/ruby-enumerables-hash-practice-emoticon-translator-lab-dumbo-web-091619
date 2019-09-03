@@ -23,9 +23,12 @@ end
 def get_english_meaning(file_path, emoji)
   emoji_hash = load_library(file_path)
   
-  
+  unless emoji_hash["get_meaning"][emoji] == nil
   
   translation = emoji_hash["get_meaning"][emoji]
   
   p translation
+  
+else 
+  p ""
 end
