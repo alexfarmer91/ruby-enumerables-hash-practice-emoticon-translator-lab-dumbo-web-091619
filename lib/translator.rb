@@ -15,10 +15,15 @@ end
 def get_japanese_emoticon(file_path, emoji)
   emoji_hash = load_library(file_path)
   
-  emoji_hash["get_meaning"][emoji]
+  translation = emoji_hash["get_meaning"][emoji]
   
+  p translation
 end
 
-def get_english_meaning
-  # code goes here
+def get_english_meaning(file_path, emoji)
+  emoji_hash = load_library(file_path)
+  
+  translation = emoji_hash["get_meaning"][emoji]
+  
+  p translation
 end
